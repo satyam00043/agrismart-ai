@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
+
+# Environment files
+.env
+
+# Docker stuff
+*.log
+docker-compose.override.yml
+
+# Build outputs
+frontend/**/build/
+frontend/**/dist/
+backend/**/dist/
+
+# Misc
+.DS_Store
